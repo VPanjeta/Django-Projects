@@ -29,7 +29,7 @@ point to ``localhost``, port ``6379``, but you can change this in the
 ``CHANNEL_LAYERS`` setting in ``settings.py``.
 
 
-Finally, run::
+Finally, run
 
     python manage.py migrate
     python manage.py createsuperuser
