@@ -60,8 +60,8 @@ Then create the superuser::
 
     docker-compose run --rm web python manage.py createsuperuser
 
-Usage
------
+How to Use
+-------------------------------------------------------------------------
 
 For Docker, replace `localhost` below with `{your-docker-ip}`.
 
@@ -72,5 +72,3 @@ to see its posts page.
 
 Now, in the admin, make some new Posts against your blog, and watch them appear
 in your new window. Edit them, and they'll update themselves live on the page too.
-
-
